@@ -4,13 +4,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class JsonplaceHolderPojo {
-    /*
-     1)create private variable for every keys
-    2) create constructor with all parameters without any parameters
-    3) create getters and setters
-    4)create toString() method
-    5)@JsonIgnoreProperties(ignoreUnknown = true)
-     */
+  
 
     private Integer userId;
     private Integer id;
