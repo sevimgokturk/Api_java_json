@@ -4,25 +4,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GorestinnerPojo {
-       /*
-    1)create private variable for every keys
-    2) create constructor with all parameters without any parameters
-    3) create getters and setters
-    4)create toString() method
-    5)@JsonIgnoreProperties(ignoreUnknown = true)
-
-               {
-                    "meta": null,
-                    "data": {
-                        "id": 13,
-                        "name": "Archan Adiga II",
-                        "email": "archan_adiga_ii@murray.org",
-                        "gender": "male",
-                        "status": "inactive"
-                    }
-                }
-
-        */
+  
 
     private Integer id ;
     private String name;
